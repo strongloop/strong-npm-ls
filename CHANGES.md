@@ -1,3 +1,9 @@
+2014-11-03, Version 1.0.2
+=========================
+
+ * Update contribution guidelines (Ryan Graham)
+
+
 2014-09-29, Version 1.0.1
 =========================
 
@@ -14,3 +20,9 @@
  * package: only ignore top-level node_modules (Sam Roberts)
 
  * package: readme, license, and contributing (Sam Roberts)
+
+
+2014-09-04, Version INITIAL
+===========================
+
+ * First release!
