@@ -1,3 +1,9 @@
+2014-12-01, Version 1.0.3
+=========================
+
+ * Fix assumption on type of .dependencies (Sam Roberts)
+
+
 2014-11-03, Version 1.0.2
 =========================
 
