@@ -27,7 +27,7 @@ function stripCircular(deps) {
 
     delete deps.parent; // Always circular
 
-    if ('dependencies' in deps) {
+    if (typeof deps === 'object' && 'dependencies' in deps) {
       for (var pkg in deps.dependencies) {
         if (stack.indexOf(deps.dependencies[pkg]) >= 0)
           delete deps.dependencies[pkg]; // Delete circular deps
@@ -65,7 +65,7 @@ exports.convertToArray = convertToArray;
 function convertToArray(deps) {
   if (deps === '[Circular]') return deps;
 
-  if ('dependencies' in deps) {
+  if (typeof deps === 'object' && 'dependencies' in deps) {
     deps.dependencies = Object.keys(deps.dependencies).map(function(p){
       return convertToArray(deps.dependencies[p]);
     });
@@ -85,7 +85,7 @@ function limitDepth(deps, depth) {
 
   if (deps === '[Circular]') return deps;
 
-  if ('dependencies' in deps) {
+  if (typeof deps === 'object' && 'dependencies' in deps) {
     for (var pkg in deps.dependencies) {
       deps.dependencies[pkg] = limitDepth(deps.dependencies[pkg], depth - 1);
     }
