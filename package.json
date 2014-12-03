@@ -3,6 +3,10 @@
   "version": "1.0.3",
   "description": "npm ls style package listing and display",
   "main": "index.js",
+  "bin": {
+    "sl-npm-ls": "./bin/sl-npm-ls.js",
+    "sl-npm-json": "./bin/sl-npm-json.js"
+  },
   "scripts": {
     "test": "tap test/test-*.js"
   },

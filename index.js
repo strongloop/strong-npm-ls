@@ -110,13 +110,3 @@ function printable(d, depth) {
 
   return topiary(prepped, 'dependencies', options);
 }
-
-if (module.filename == require.main.filename) {
-  var where = process.argv[2] || '.';
-  var depth = process.argv[3] == null ? Number.MAX_VALUE : +process.argv[3];
-
-  read(where, function(e,d) {
-    if (e) throw e;
-    console.log(printable(d, depth));
-  });
-}
