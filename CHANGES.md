@@ -1,3 +1,9 @@
+2014-12-04, Version 1.0.4
+=========================
+
+ * Add cli wrappers to dump output (Sam Roberts)
+
+
 2014-12-01, Version 1.0.3
 =========================
 
