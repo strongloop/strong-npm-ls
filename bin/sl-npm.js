@@ -12,6 +12,6 @@ module.exports = function(printable) {
     if (printable)
       console.log(tree.printable(d, depth));
     else
-      console.log(util.inspect(d, {depth: null}));
+      console.log(JSON.stringify(d, null, 2));
   });
 };
