@@ -1,4 +1,10 @@
-2015-01-13, Version 1.0.5
+2015-07-27, Version 1.0.6
+=========================
+
+ * Make sl-npm-json actually output json (Bert Belder)
+
+
+2015-01-12, Version 1.0.5
 =========================
 
  * Fix bad CLA URL in CONTRIBUTING.md (Ryan Graham)
