@@ -23,10 +23,7 @@
     "supervisor"
   ],
   "author": "Sam Roberts <sam@strongloop.com>",
-  "license": {
-    "name": "Dual Artistic/StrongLoop",
-    "url": "https://github.com/strongloop/strong-npm-ls/blob/master/LICENSE.md"
-  },
+  "license": "Artistic-2.0",
   "bugs": {
     "url": "https://github.com/strongloop/strong-npm-ls/issues"
   },
