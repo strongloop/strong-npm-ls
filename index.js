@@ -5,8 +5,8 @@ var util = require('util');
 
 exports.read = read;
 
-function read(where, callback) {
-  readInstalled(where, function(er, deps) {
+function read(where, opts, callback) {
+  readInstalled(where, opts, function(er, deps) {
     if (er) return callback(er);
 
     deps = stripCircular(deps);
