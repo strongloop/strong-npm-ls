@@ -1,6 +1,6 @@
 {
   "name": "strong-npm-ls",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "npm ls style package listing and display",
   "main": "index.js",
   "bin": {
