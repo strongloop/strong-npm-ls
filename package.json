@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/strongloop/strong-npm-ls",
   "dependencies": {
-    "read-installed": "^3.1.1",
+    "read-installed": "^4.0.3",
     "topiary": "^1.1.1"
   },
   "devDependencies": {
