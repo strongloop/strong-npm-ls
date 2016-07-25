@@ -1,3 +1,13 @@
+2016-07-25, Version 1.0.10
+==========================
+
+ * test: update to tap 6.x (Sam Roberts)
+
+ * Update URLs in CONTRIBUTING.md (#7) (Ryan Graham)
+
+ * package: update read-installed to 4.x (Sam Roberts)
+
+
 2016-05-06, Version 1.0.9
 =========================
 
